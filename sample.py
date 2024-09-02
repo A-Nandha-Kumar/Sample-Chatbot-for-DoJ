@@ -3,7 +3,7 @@ import pandas as pd
 """load ths csv file with the exact location of the file and add the name of the csv file at the end of the 
    location address(....../name_of_csv_file.csv)"""
 
-data = pd.read_csv(r'C:\Users\MR\Desktop\Smart India Hackthon\SampleBot\data.csv')
+data = pd.read_csv(data.csv)
 
 data.dropna(inplace=True)# Drop any rows with NaN values
 
